@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aradhyo Barik - Profile</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968517.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="site-header">
+    <h2>Aradhyo Barik – Profile</h2>
+    </header>
+  <div class="container">
+    <h1>🌟 Meet Aradhyo Barik 🌟</h1>
+    <p class="subtitle">Student | Defender | Innovator | Comedian</p>
+
+    <div class="tabs">
+      <button class="tab-button active" onclick="showSection('traits')">Traits</button>
+      <button class="tab-button" onclick="showSection('jokes')">Jokes</button>
+      <button class="tab-button" onclick="showSection('games')">Game</button>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content-section active" id="traits">
+        <h2>⚽ Traits</h2>
+        <ul>
+          <li>Brave and strategic football defender 🛡️</li>
+          <li>Kind-hearted and always ready to help 🤝</li>
+          <li>Makes everyone laugh with his clever jokes 😂</li>
+          <li>Loves inventing fun games in his little notebook 🎮</li>
+        </ul>
+      </div>
+
+      <div class="content-section" id="jokes">
+        <h2>😂 Aradhyo's Jokes</h2>
+        <p>Click the button to hear one of his best jokes!</p>
+        <button onclick="showJoke()">Show Joke</button>
+        <p class="joke-box" id="jokeBox"></p>
+      </div>
+
+      <div class="content-section" id="games">
+        <h2>🎮 Aradhyo's Maze Game</h2>
+        <p>He has created an exciting maze game called:</p>
+        <p class="game-title">🧩 <strong>“Aradhyo's Maze Game”</strong></p>
+        <p>It's designed with twists and traps — an innovative creation for someone his age!</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Sarthak Mitra. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
